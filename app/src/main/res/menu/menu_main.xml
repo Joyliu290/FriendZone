@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.sparkapps.friendzone.MainActivity">
+    <item android:title="@string/logout_menu_label"
+        android:id="@+id/action_logout" />
+    <item android:title="@string/edit_friends_menu_label"
+        android:id="@+id/action_edit_friends" />
+</menu>

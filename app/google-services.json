@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "805526626529",
+    "firebase_url": "https://friendzone-52e89.firebaseio.com",
+    "project_id": "friendzone-52e89",
+    "storage_bucket": "friendzone-52e89.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:805526626529:android:0501111b6b3ca939",
+        "android_client_info": {
+          "package_name": "com.sparkapps.friendzone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "805526626529-8t143vglv2hbg4kdnoa1jobv7eau406l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sparkapps.friendzone",
+            "certificate_hash": "388E5FE669AB81DFE17DD8297F4FA83FB60A7DDC"
+          }
+        },
+        {
+          "client_id": "805526626529-tlor7i0e6qegkobg971brk1pbgdaudde.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDU6TWPuD-taT8fJeVLAEqgZ4AcDafuy4Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "805526626529-tlor7i0e6qegkobg971brk1pbgdaudde.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
