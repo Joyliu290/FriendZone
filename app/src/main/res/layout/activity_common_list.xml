@@ -17,7 +17,7 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:id="@+id/shared_list"
+        android:id="@+id/details_title"
         android:textStyle="normal|bold"
         android:textSize="24sp"
         android:textAppearance="@style/TextAppearance.AppCompat" />
@@ -26,7 +26,7 @@
         android:layout_width="match_parent"
         android:layout_height="25dp"
         android:id="@+id/item1"
-        android:layout_below="@+id/shared_list"
+        android:layout_below="@+id/details_title"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_marginTop="42dp"
@@ -82,5 +82,18 @@
         android:textAppearance="@style/TextAppearance.AppCompat"
         android:textSize="18sp"
         android:textAlignment="viewStart" />
+
+    <Button
+        android:text="Send Message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/send_message"
+        android:textSize="24sp"
+        android:textStyle="normal|bold|italic"
+        android:fontFamily="monospace"
+        android:background="#FFF0F5"
+    />
 
 </RelativeLayout>

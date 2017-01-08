@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.sparkapps.friendzone">
 
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -37,7 +38,20 @@
             android:name=".CommonListActivity"
             android:parentActivityName=".MainActivity"
             android:screenOrientation="portrait" />
-        <activity android:name=".PopularListActivity"></activity>
+        <activity android:name=".PopularListActivity"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".EventDetailsActivity"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"></activity>
+
     </application>
 
+    <uses-permission android:name="android.permission.SEND_SMS">
+    </uses-permission>
+    <uses-permission android:name="android.permission.RECEIVE_SMS">
+    </uses-permission>
+
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
 </manifest>

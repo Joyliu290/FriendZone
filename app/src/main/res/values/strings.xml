@@ -56,13 +56,13 @@
     <string name="login_error_title">Ooops!</string>
     <string name="login_error_message">Email or Password is invalid.</string>
     <string name="logout_menu_label">Logout</string>
-    <string name="tab1_title_label">Inbox</string>
+    <string name="tab1_title_label">Events</string>
     <string name="tab2_title_label">Friends</string>
     <string name="inbox_empty_message">No messages to display!</string>
     <string name="empty_friends_message">Add friends to get started!</string>
     <string name="edit_friends_menu_label">Edit Friends</string>
     <string name="default_no_edit_users">No users found yet!</string>
-    <string name="tab3_title_label">Home</string>
+    <string name="tab3_title_label">Explore</string>
     <string name="my_profile">My Profile</string>
     <string name="edit_bucketlist">Edit BucketList</string>
 </resources>
