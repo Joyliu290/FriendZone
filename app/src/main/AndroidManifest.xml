@@ -33,7 +33,11 @@
             android:name=".MyProfile"
             android:parentActivityName=".MainActivity"
             android:screenOrientation="portrait" />
-        <activity android:name=".CommonListActivity"></activity>
+        <activity
+            android:name=".CommonListActivity"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".PopularListActivity"></activity>
     </application>
 
 </manifest>
