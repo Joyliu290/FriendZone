@@ -26,9 +26,12 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
         switch (position)
         {
             case 0:
-                return  new InboxFragment();
+                return new HomeFragment();
             case 1:
+                return  new InboxFragment();
+            case 2:
                 return  new FriendsFragment();
+
         }
 
         return null;
@@ -37,17 +40,19 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
 
     @Override
     public int getCount() {
-        // Show 2 total pages.
-        return 2;
+        // Show 3 total pages.
+        return 3;
     }
 
     @Override
     public CharSequence getPageTitle(int position) {
         switch (position) {
             case 0:
-                return mContext.getString(R.string.tab1_title_label);
+               return mContext.getString(R.string.tab3_title_label);
             case 1:
                 return mContext.getString(R.string.tab2_title_label);
+            case 2:
+                return mContext.getString(R.string.tab1_title_label);
         }
         return null;
     }
