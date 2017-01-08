@@ -50,9 +50,9 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
             case 0:
                return mContext.getString(R.string.tab3_title_label);
             case 1:
-                return mContext.getString(R.string.tab2_title_label);
-            case 2:
                 return mContext.getString(R.string.tab1_title_label);
+            case 2:
+                return mContext.getString(R.string.tab2_title_label);
         }
         return null;
     }

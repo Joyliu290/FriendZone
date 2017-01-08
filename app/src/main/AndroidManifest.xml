@@ -25,13 +25,15 @@
             android:name=".SignUpActivity"
             android:parentActivityName=".LoginActivity"
             android:screenOrientation="portrait" />
-        <activity android:name=".EditBucketList"
+        <activity
+            android:name=".EditBucketList"
             android:parentActivityName=".MainActivity"
-            android:screenOrientation="portrait"
-            />
-        <activity android:name=".MyProfile"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MyProfile"
             android:parentActivityName=".MainActivity"
-            android:screenOrientation="portrait"></activity>
+            android:screenOrientation="portrait" />
+        <activity android:name=".CommonListActivity"></activity>
     </application>
 
 </manifest>

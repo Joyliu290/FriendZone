@@ -90,11 +90,7 @@ public class MainActivity extends AppCompatActivity {
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_my_profile){
-            Intent intent = new Intent(this,MyProfile.class );
-            startActivity(intent);
-        }
-        else if(id == R.id.action_my_bucketlist){
+       if(id == R.id.action_my_bucketlist){
             Intent intent = new Intent (this,EditBucketList.class);
             startActivity(intent);
         }
