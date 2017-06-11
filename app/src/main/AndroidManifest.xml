@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.sparkapps.friendzone">
 
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+
 
     <application
         android:allowBackup="true"
@@ -44,6 +46,9 @@
         <activity android:name=".EventDetailsActivity"
             android:parentActivityName=".MainActivity"
             android:screenOrientation="portrait"></activity>
+
+        <meta-data android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id"/>
 
     </application>
 

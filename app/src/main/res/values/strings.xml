@@ -65,4 +65,5 @@
     <string name="tab3_title_label">My Bucket List</string>
     <string name="my_profile">My Profile</string>
     <string name="edit_bucketlist">Edit BucketList</string>
+    <string name = "facebook_app_id">685104905014759</string>
 </resources>

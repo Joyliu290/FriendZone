@@ -72,6 +72,22 @@
             android:text="@string/btn_login"
             android:textColor="@android:color/black" />
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="Facebook Login Status"
+            android:id="@+id/textView"
+            android:gravity = "center"
+            android:textStyle="bold"
+            />
+
+        <com.facebook.login.widget.LoginButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/fb_login_btn"
+            android:layout_centerInParent="true"></com.facebook.login.widget.LoginButton>
+
         <!-- Link to Login Screen -->
 
         <Button

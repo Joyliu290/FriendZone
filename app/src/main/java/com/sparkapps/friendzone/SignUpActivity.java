@@ -23,7 +23,6 @@ import com.google.firebase.database.FirebaseDatabase;
 
 public class SignUpActivity extends AppCompatActivity {
 
-
     private EditText mUsername,mEmail, mPassword;
     private Button  mSignUpButton;
     private ProgressBar mProgressBar;
